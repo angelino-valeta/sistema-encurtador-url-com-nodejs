@@ -1,0 +1,31 @@
+{
+  "name": "sistema-encurtador-url-com-nodejs",
+  "version": "1.0.0",
+  "description": "Sistema de Encurtador de URL Com Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "setup": "tsx ./src/setup.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelino-valeta/sistema-encurtador-url-com-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelino-valeta/sistema-encurtador-url-com-nodejs/issues"
+  },
+  "homepage": "https://github.com/angelino-valeta/sistema-encurtador-url-com-nodejs#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.29",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "postgres": "^3.4.3",
+    "redis": "^4.6.13",
+    "zod": "^3.22.4"
+  }
+}
